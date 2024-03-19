@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+
+int main() {
+    char fname[50],lname[50];
+    int birth;
+    printf("Input your first name:");
+    scanf("%s",&fname);
+    printf("Input your last name:");
+    scanf("%s",&lname);
+    printf("Input your year of birth:");
+    scanf("%d",&birth);
+   printf("%s %s %d",fname,lname,birth);
+   
+    
+    
+     
+    
+    return 0;
+}
