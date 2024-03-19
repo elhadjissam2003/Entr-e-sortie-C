@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+
+int main() {
+    int h,min,t;
+    printf("Minutes d'entrée :");
+    scanf("%d",&t);
+    h=t/60;
+    min=t%60;
+   
+    
+    
+    printf("\n %d heures, %d minutes",h,min);
+    
+    
+    return 0;
+}
