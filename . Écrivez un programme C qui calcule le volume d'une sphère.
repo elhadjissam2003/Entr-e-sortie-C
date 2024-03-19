@@ -1,0 +1,14 @@
+ #include <stdio.h>
+#define PI 3.14159265358979323846264338327950288419716939337510
+
+int main() {
+    float R;
+    float V;
+    printf("• saisissez le rayon de la sphère :");
+    scanf("%f",&R);
+    V=(4.0/3.0)*PI*(R*R*R);
+    printf("\nLe volume de la sphère est %f",V);
+    
+    
+    return 0;
+}
