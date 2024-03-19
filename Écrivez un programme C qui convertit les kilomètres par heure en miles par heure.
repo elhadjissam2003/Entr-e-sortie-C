@@ -1,0 +1,13 @@
+ #include <stdio.h>
+ 
+int main() {
+    float km_h,km_min,mille_h;
+    printf("Heures d'entrée : ");
+    scanf("%f",&km_h);
+    
+    mille_h=km_h/1.609344 ;
+    printf("\n %f miles par heure",mille_h);
+    
+    
+    return 0;
+}
