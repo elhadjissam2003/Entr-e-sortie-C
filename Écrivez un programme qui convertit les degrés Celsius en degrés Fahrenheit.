@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float tC;
+    float tF;
+    printf("saisissez une température (en degrés Celsius):");
+    scanf("%f",&tC);
+    tF= (tC * 1.8) + 32;
+    printf("\n %f degrés Fahrenheit.",tF);
+    
+    
+    return 0;
+}
