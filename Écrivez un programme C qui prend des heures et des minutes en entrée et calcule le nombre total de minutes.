@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+ 
+
+int main() {
+    int h,min,t;
+    printf("Heures d'entrée :");
+    scanf("%d",&h);
+      printf("Minutes  d'entrée :");
+    scanf("%d",&min);
+    
+    t=min+(h*60);
+    printf("\n Total : %d minutes.",t);
+    
+    
+    return 0;
+}
