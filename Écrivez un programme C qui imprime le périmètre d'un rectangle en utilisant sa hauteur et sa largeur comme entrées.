@@ -1,0 +1,16 @@
+ #include <stdio.h>
+#define PI 3.14159265358979323846264338327950288419716939337510
+
+int main() {
+    float h,l;
+    float V;
+    printf("Saisissez la hauteur du rectangle : ");
+    scanf("%f",&h);
+    printf("Saisissez la largeur du rectangle : ");
+    scanf("%f",&l);
+  
+    printf("\n• Le périmètre du rectangle est : %f",(l+h)*2);
+    
+    
+    return 0;
+}
