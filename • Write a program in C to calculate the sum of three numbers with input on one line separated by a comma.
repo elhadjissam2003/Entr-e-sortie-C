@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+
+int main() {
+    int n1,n2,n3;
+    printf("Input three numbers separated by comma : ");
+    scanf("%d,%d,%d",&n1,&n2,&n3);
+    printf("The sum of three numbers : %d",(n1+n2+n3));
+  
+   
+    
+    
+     
+    
+    return 0;
+}
