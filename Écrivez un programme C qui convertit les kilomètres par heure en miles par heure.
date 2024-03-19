@@ -1,7 +1,7 @@
  #include <stdio.h>
  
 int main() {
-    float km_h,km_min,mille_h;
+    float km_h,mille_h;
     printf("Heures d'entrée : ");
     scanf("%f",&km_h);
     
